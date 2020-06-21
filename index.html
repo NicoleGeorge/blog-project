@@ -1,42 +1,91 @@
+
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Blog - CSS Grid + Flexbox</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="./assets/styles/styles.css">
-    </head>
-    <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
 
-        <div class="blog">
+        <!-- Blog logo -->
+        <a href="index.html" class="blog-logo">
+            <img src="/assets/img/The_Office_US_logo.svg.png" alt="Nicole's Blog logo">
+        </a>
 
-      
-        <header>
-            Header
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </header>
-        <main>
-            Main: This is the homepage!!
-        </main>
-        <aside>
-            <h3>Latest Posts</h3>
-            <ul>
-                <li><a href="#"">Article 1</a></li>
-                <li><a href="#"">Article 2</a></li>
-                <li><a href="#"">Article 3</a></li>
-                <li><a href="#"">Article 4</a></li>
-                <li><a href="#"">Article 5</a></li>
-            </ul>
-        </aside>
-        <footer>
-            &copy; 2020 Made with love by Nicole G.
-        </footer>
+        
+        <!-- Navbar -->
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="blog.html">Blog</a>
+            <a href="">Merch</a>
+        </nav>
+    </header>
+
+    <article class="main-posts">
+        <h2>The Best of Jim & Pam Blog</h2>
+        <div class="main-posts-grid">
+            <a href="./blog-posts/blog2.html">
+                <img src="/assets/img/Eloisa on Twitter.png" alt="Jim & Pan Halpert then & now">
+                <h3>Pam & Jim through the years</h3>
+                <p>June 10, 2020</p>
+            </a>
+            <a href="./blog-posts/blog2.html">
+                <img src="/assets/img/You'll never get to fall asleep on Jim Halpert's shoulder_.jpeg" alt="supermarket-joking">
+                <h3>Supermaket Sweep</h3>
+                <p>May 4, 2020</p>
+            </a>
+            <a href="./blog-posts/blog2.html">
+                <img src="/assets/img/Oh! How cute! lookin like a superstar__ John Krasinski & Jenna Fischer by Peggy Sirota.jpeg" alt="Jim & Pam's wedding">
+                <h3>the BIG Day!!!</h3>
+                <p>June 12, 2020</p>
+            </a>
+            <a href="./blog-posts/blog2.html">
+                <img src="/assets/img/When they had this exchange in the hospital_.jpeg" alt="the baby's arrive">
+                <h3>The Baby's Arrive</h3>
+                <p>July 23, 2020</p>
+            </a>
+            <a href="./blog-posts/blog2.html">
+                <img src="/assets/img/John Krasinski says he and Jenna Fischer were not 'genuinely in love'.jpeg" alt="Dunder Mifflin drama">
+                <h3>Oh The Drama @ D.M</h3>
+                <p>August 14, 2020</p>
+            </a>
+            <a href="./blog-posts/blog2.html">
+                <img src="/assets/img/Who's your favourite telly couple_.png" alt="Jim & Pam's wedding">
+                <h3>how to plan a wedding: Haplert Style</h3>
+                <p>Mar 24, 2018</p>
+            </a>
+        </div>
+        <div>
+            <button><a href="blog.html">continue to the blog</a></button>
+        </div>
+        
+    </article>
+ <!-- Subscribe -->
+ <div class="subscribe-section">
+    <h2>join other Halpert Fans!!</h2>
+    <form action="">
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email Address" required>
+    </form>
+    <button>sign me up!</button>
+    <p class="disclaimer">* We promise noe to spam you with Dunder Mifflin coupons.</p>
+</div>
+
+
+ <!-- Footer -->
+ <footer>
+    <div class="social-media-links">
+        <a href="#"><img src="" alt="">Instagram</a>
+        <a href="#"><img src="" alt="">Twitter</a>
+        <a href="#"><img src="" alt="">Facebook</a>
     </div>
-  </body>
-  </html>
-  
+    <h4>This website is made with love</h4>
+    <h4>&copy; Nicole George 2020</h4>
+</footer>
+</body>
+</html>
+
+

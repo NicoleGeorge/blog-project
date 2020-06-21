@@ -1,0 +1,35 @@
+/* header & navbar styles */
+.header {
+    grid-area: hd;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ff6b6b85;
+    align-items: center;
+    padding: 2em 2em;
+    margin-bottom: 25px;
+}
+
+.blog-logo {
+    margin-top: 25px;
+    margin-left: 25px;
+    width: 350px;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 24px;
+}
+
+nav a {
+    color: #000;
+    text-decoration: none;
+    padding: 25px;
+}
+
+nav a:hover {
+    color: white;
+    
+}
