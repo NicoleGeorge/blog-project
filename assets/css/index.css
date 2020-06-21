@@ -12,17 +12,43 @@
   box-sizing: border-box;
 }
 
+html {
+    background: #7d6baf;
+}
+
 body {
-  margin: 0px;
+  margin: 2rem;
   font-family: 'Open Sans', 'sans-serif';
-  background-color: rgba(255, 192, 203, 0.753);
+  background-color: rgb(255, 192, 203);
   color: #444;
 }
 
+main {
+    margin-left: 55px;
+    
+}
 img {
   max-width: 100%;
 }
 
+h1 {
+	font-family: monospace;
+	font-weight: 400;
+	text-transform: uppercase;	
+    font-size: 54px;
+}
+
+.heading {
+    margin-bottom: -25px;
+    position: relative;
+    color: white;
+}
+
+.sweethearts {
+    margin-top: -35px;
+    text-align: center;
+    color: white;
+}
 h1,
 p {
   margin: 0 0 1em 0;
@@ -44,3 +70,18 @@ a {
 a:hover {
     color: red;
 }
+
+
+
+
+/* /*  Improving Grid Layout
+-------------------------------------------- */
+
+@supports (display: grid) {
+	.C main {
+		grid-template-columns: 1fr minmax(100px, 400px) minmax(100px, 400px) min-content;
+	}
+	.C h2 {
+		align-self: end;
+	}
+} */
