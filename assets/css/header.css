@@ -1,11 +1,10 @@
 /* header & navbar styles */
 .header {
-    grid-area: hd;
     display: flex;
     justify-content: space-between;
     background-color: #ff6b6b85;
     align-items: center;
-    padding: 2em 2em;
+    padding: 20px 20px;
     margin-bottom: 25px;
 }
 
@@ -24,12 +23,12 @@ nav {
 }
 
 nav a {
-    color: #000;
+    color: #7d6baf;
     text-decoration: none;
     padding: 25px;
+    font-weight: bold;
 }
 
 nav a:hover {
     color: white;
-    
 }

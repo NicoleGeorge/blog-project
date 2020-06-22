@@ -1,8 +1,7 @@
 /* Footer */
 footer {
-    grid-area: ft;
     background-color: #ff6b6b85;
-    padding: 4em 0;
+    padding: 40px 0;
     text-align: center;
 }
 
@@ -19,7 +18,7 @@ footer {
 }
 
 footer h4 {
-    margin-bottom: 1em;
+    margin-bottom: 10px;
     font-weight: 100;
     font-size: 0.6em;
 }

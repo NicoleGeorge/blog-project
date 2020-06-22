@@ -1,10 +1,14 @@
 /* Subscribe */
-.subscribe-section {
-    grid-area: subs;
+.cta-section {
     background-color: #ff6b6b27;
-    padding: 4em 0;
-    margin-top: 4em;
+    padding: 40px 0;
+    margin-top: 25px;
     text-align: center;
+}
+
+.cta-section h2 {
+    font-size: 28px;
+    margin-top: 15px !important;
 }
 
 .disclaimer {
@@ -12,31 +16,32 @@
     margin-top: 25px;
 }
 form {
+    margin-top: 20px;
     justify-content: space-around;
     display: grid;
-    grid-template-columns: 20em;
-    grid-gap: 2em;
+    grid-template-columns: 275px;
+    grid-gap: 15px;
 }
 
 form input {
-    padding: 1em 1em;
+    padding: 10px 10px;
 }
 
-.subscribe-section p {
+.cta-section p {
     text-transform: capitalize;
 }
 
-.subscribe-section button {
+.cta-section button {
     background-color: rgb(255, 154, 171);
     color: white;
     border: 2px solid #000;
-    padding: 1em 2em;
-    margin-top: 4em;
+    padding: 15px 25px;
+    margin-top: 45px;
     border: none;
     text-transform: uppercase;
 }
 
-.subscribe-section button:hover {
+.cta-section button:hover {
     background-color:  rgba(255, 154, 171, 0.678);
     color: red;
     border: none;
