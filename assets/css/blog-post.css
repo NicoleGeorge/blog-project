@@ -1,6 +1,18 @@
 .media {
-    margin-top: 2em;
     margin-bottom: 2em;
-
     padding: 10px;
+  }
+
+  .content {
+    margin-top: 25px;
+    line-height: 25px;
+    width: 100%;
+  }
+
+  .hero {
+    margin-top: 15px;
+  }
+
+  .blog-footer {
+    font-size: 24px;
   }
