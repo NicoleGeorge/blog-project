@@ -19,7 +19,7 @@ html {
 body {
   margin: 1rem;
   font-family: 'Open Sans', 'sans-serif';
-  background-color: rgb(255, 192, 203);
+  background-color: rgb(255, 212, 219);
   color: #444;
 }
 
@@ -84,4 +84,5 @@ a:hover {
 	.C h2 {
 		align-self: end;
 	}
-} */
+}
+
