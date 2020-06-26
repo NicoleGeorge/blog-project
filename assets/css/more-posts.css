@@ -13,22 +13,6 @@ margin: 40px;
 .media > .img { grid-area: img; }
 .media > .content { grid-area: bd; }
 .media > .footer { grid-area: ft; }
-
-.media {
-    display: grid;
-    grid-column-gap: 20px;
-    grid-template-areas:
-        "title"
-        "img"
-        "bd"
-        "ft";
-}
-  
-.header, .footer {
-    grid-column: 1 / -1;
-    /* needed for the floated layout */
-    clear: both;
-}
  
 .read-more {
     color: red;
@@ -62,7 +46,6 @@ margin: 40px;
     }
     
     .media .footer {
-      /* background-color: rgba(255, 105, 105, 0.09); */
       padding: 10px;
     }
   
