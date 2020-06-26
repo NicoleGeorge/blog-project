@@ -1,10 +1,10 @@
 @import url(https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&display=swap);
-@import url(/assets/css/header.css);
-@import url(/assets/css/main-posts.css);
-@import url(/assets/css/more-posts.css);
-@import url(/assets/css/blog-post.css);
-@import url(/assets/css/cta.css);
-@import url(/assets/css/footer.css);
+@import url(../css/header.css);
+@import url(../css/main-posts.css);
+@import url(../css/more-posts.css);
+@import url(../css/blog-post.css);
+@import url(../css/cta.css);
+@import url(../css/footer.css);
 
 *,
 *:before,
